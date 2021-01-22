@@ -4,13 +4,16 @@
   "description": "Adobe XD templates are easy",
   "main": "index.html",
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite" : "lite-server"
+    "lite": "lite-server"
   },
   "author": "Aziz",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
   }
 }
